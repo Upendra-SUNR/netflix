@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflex</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    header{
+       display:flex;
+       justify-content: space-between;
+       color: white;
+       height: 50px;
+       width: auto;
+    }
+    button{
+        color:black;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    button:hover{
+        background-color: red;
+    }
+    .tv{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 20px;
+    }
+    .in{
+        border-radius: 10px;
+        color: black;
+        height: 20px;
+        width: 100px;
+        padding: 10px 20px;
+        border: 5px;
+    }
+    .in:hover{
+        background-color: red;
+    }
+    .get{
+        border-radius: 10px;
+        color: black;
+        height: 40px;
+        width: 120px;
+        padding: 10px 20px;
+        border: 5px;
+    }
+    .r{
+        color: red;
+    }
+    .Movies{
+        color: black;
+        border-radius: 10px;
+        height: 30px;
+        width: 100px;
+    
+    }
+    .Movies:hover{
+        background-color: red;
+    }
+    .div1{
+        margin-left: 30px;
+    }
+    .div2{
+        display: flex;
+        gap: 50px;
+        margin-left: 30px;
+        margin-top: 50px;
+        overflow: scroll;
+    }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    
+    .div3{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 200px;
+      }
+      header img{
+        height: 100px;
+        width: 200px;
+      }
+      @media(max-width:600px){
+
+      }
+</style>
+<body>
+    <header>
+        <img src="R.jpeg" alt="">
+        <div>
+        <button>english</button>
+         <button>Sign in</button>
+        </div>
+    </header>
+    <div class="tv">
+    <h2>Unlimeted Movies,TV <br>
+       Shows and More</h2>
+   <p>Starts at$149.Cancel at any time. <br> <br>
+  Ready to watch?Enter your email to create or restart your Member</p> <br>
+  <input type="text" placeholder="Email address" class="in">
+  <button class="get"> Get Started</button>
+</div>
+<div class="div1">
+<h2>Trending Now</h2>
+<select  class="Movies">
+    <option>India Movies</option>
+    <option >Global Movies</option>
+</select>
+<select class="Movies">
+    <option>Movies </option>
+    <option >Tv Shows</option>
+</select>
+</div>
+<div class="div2">
+    <div class="div3">
+    <img src="IMG-20241005-WA0008.jpg" alt=""> <br>
+    <p>Jr NTR and Janhvi Kapoor-starrer highly anticipated film  <br>
+         Devara: Part 1 has hit theatres. The action drama film, directed by  <br>
+         Koratala Siva, is performing well at the box office.</p>
+        </div>
+        <div class="div3">
+    <img src="IMG-20241005-WA0009.jpg" alt=""> <br>
+    <p>Saripodhaa Sanivaaram (transl. Is Saturday Not Enough) is a 2024 Indian  <br>
+        Telugu-language vigilante action thriller film written and directed by Vivek Athreya. <br>
+         It is produced by D. V. V. Danayya under DVV Entertainment. </p>
+        </div>
+        <div class="div3">
+    <img src="IMG-20241005-WA0010.jpg" alt=""> <br>
+          <p>KGF: Chapter 1 is a 2018 Indian Kannada-language period action film[5] written and directed by <br>
+         Prashanth Neel, and produced by Vijay Kiragandur under the banner of Hombale Films. </p>
+        </div>
+        <div class="div3">
+    <img src="IMG-20241005-WA0011.jpg" alt=""> <br>
+    <p>Kalki 2898 AD is a 2024 Indian Telugu-language epic science fiction film directed by  <br>
+        Nag Ashwin and  brproduced by Vyjayanthi Movies. The film stars Amitabh Bachchan,  <br>
+        Kamal Haasan, Prabhas, Deepika Padukone and Disha Patani. Inspired by Hindu scriptures, <br>
+         it is the first instalment in a planned Kalki Cinematic … See more</p>
+        </div>
+        <div class="div3">
+    <img src="IMG-20241005-WA0012.jpg" alt=""> <br>
+    <p>Sree Vishnu's latest film 'SWAG', which hit theatres on October 4, 2024, has captivated <br>
+         audiences with his remarkable performance. Directed by Hasith Goli, this period drama-comedy <br>
+          spans multiple timelines, starting in 1551, tracing the Swaganika dynasty. Early reviews on <br>
+           social media praise Vishnu's portrayal of diverse characters, while some feel the film falls  <br>
+           short of high promotional expectations, offering a solid but not exceptional cinematic experience.</p>
+        </div>
+</div>
+</body>
+</html>
